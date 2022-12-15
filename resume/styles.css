@@ -1,0 +1,13 @@
+thead,
+tfoot{
+    background-color: whitesmoke;
+    color: darkblue;
+}
+table,td,th,tr{
+    border: 3px;
+    border-style: solid;
+    border-color: rgba(30, 160, 177, 0.288);
+}
+img{
+    border-radius: 50%;
+}
