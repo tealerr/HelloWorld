@@ -1,7 +1,7 @@
 thead,
 tfoot{
     background-color: whitesmoke;
-    color: darkblue;
+    color: tomato;
 }
 table,td,th,tr{
     border: 3px;
@@ -9,5 +9,5 @@ table,td,th,tr{
     border-color: rgba(30, 160, 177, 0.288);
 }
 img{
-    border-radius: 60%;
+    border-radius: 40%;
 }
