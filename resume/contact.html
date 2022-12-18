@@ -7,35 +7,41 @@
 </head>
 
 <body>
-  <h1 style="font-style: oblique;">Contact</h1>
+  <h1>Contact</h1>
 
 </body>
 
 </html>
-<h3 style="left: auto; color: tomato; font-style: oblique;">ติดต่อฉัน 📬</h3>
+<h3 style="left: auto; color: tomato;">ติดต่อฉัน 📬</h3>
 <form class="" action="mailto:theetitle@gmail.com" method="post" enctype="text/plain">
   <label sty>Name:</label>
-  <input type="text" name="name_surname" value="" placeholder="Prayut jan"><br>
+  <input type="text" name="name_surname" value="" placeholder="Name Surname" required><br>
+  
   <label>E-mail:</label>
-  <input type="email" name="email" value="" placeholder="name@gmail.com"><br>
+  <input type="email" name="email" value="" placeholder="example@gmail.com" required><br>
+
   <label>ข้อความที่ต้องการส่ง:</label><br>
-  <textarea name="message" rows="8" cols="80" placeholder="Type..."></textarea><br>
+  <textarea name="message" rows="10" cols="50" placeholder="Type..."></textarea><br>
+  <input style="color: white; background-color: rgb(25, 134, 84); width: 100px; height: 33px ;" type="submit" name="">
 
-  <div>
-    <a class="btn btn-primary" href="#" role="button">Link</a>
-    <button type="button" class="btn btn-success">Success</button>
-
-  </div>
-  <input style="color: white; background-color: rgb(25, 134, 84)  ;" type="submit" name="">
 </form>
 
 
 <style>
   label {
-    color: midnightblue;
+    color:darkslategrey ;
   }
 
   button {
     background-color: rgb(25, 134, 84);
   }
+
+  body {
+    font-family: "Poppins";
+    font-size: 16px;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    
+    
+}
 </style>
