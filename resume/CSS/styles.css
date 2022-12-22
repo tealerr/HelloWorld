@@ -4,6 +4,21 @@ tfoot {
 }
 
 body {
+    background-color: #F3EFE0;
+}
+ h1,h3{
+    color: #28a745;
+ }
+
+hr {
+    border-style: dotted none none;
+    border-width: 10px;
+    color: #22A39F;
+    height: 10px;
+    width: 70%;
+}
+
+body {
     font-family: "Poppins", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.8;
@@ -12,9 +27,14 @@ body {
     color: gray;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
-    
-    
+
+
 }
+
+body {
+    background-color: #F3EFE0;
+}
+
 
 table {
     min-width: 1000px !important;
