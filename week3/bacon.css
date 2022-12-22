@@ -1,0 +1,34 @@
+h1{
+    
+    color: red;
+    font-size: 150px;
+}
+h1:hover{
+    background-color: green;
+}
+p:hover{
+    background-color: yellow;
+}
+
+img{
+    width: 30%;
+}
+img:hover{
+    background-color: aqua;
+}
+
+.bacon{
+    background-color: green;
+}
+
+.circular{
+    border-radius: 60%;
+}
+
+.broc{
+    background-color: red;
+}
+
+#heading{
+    color: blue;
+}
