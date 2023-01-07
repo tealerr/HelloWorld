@@ -1,0 +1,22 @@
+.example-div{
+    padding:20px;
+      margin-left: 10px;
+  
+    background-color: lightblue;
+  }
+  
+  .example-div2{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+  .example-div3{
+    margin-left:10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  .example-div2,.example-div3{
+    margin-bottom:0;
+  }
