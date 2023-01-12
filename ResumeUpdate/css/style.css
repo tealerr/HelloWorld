@@ -28,13 +28,11 @@ body {
     text-align: center;
 }
 
-<<<<<<< HEAD
 span{
     text-decoration: underline ;
 }
 .contain2{
     background-color: blueviolet;
-=======
 span {
     text-decoration: underline;
 }
@@ -55,5 +53,4 @@ span {
     position: relative;
     height: 100px;
     background-color: #c7f2a4;
->>>>>>> b3f7f1c477fc9e95e8fd87cdaf6b769a3f2a7161
 }
