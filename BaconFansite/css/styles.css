@@ -2,14 +2,17 @@ h1 {
   color: red;
   font-size: 200px;
 }
+
 h2 {
   font-size: 50px;
-  color:blue;
+  color: blue;
 }
+
 img {
-background-color:red;
-/* display:block; */
+  background-color: red;
+  /* display:block; */
 }
+
 img:hover {
   background-color: gold;
 }
@@ -20,23 +23,28 @@ img:hover {
   position: relative;
   background-color: green;
 }
+
 .broccoli {
-  background-color:red;
+  background-color: red;
 }
+
 .borderNha {
   border-style: dotted;
   border-width: 30px;
 }
+
 .circular {
   border-radius: 100%;
 }
-.sandwich{
+
+.sandwich {
   display: block;
   background-color: violet;
 }
+
 .pushDown {
   position: relative;
-  top:50px;
+  top: 50px;
 }
 
 /* ID Selector */
@@ -44,6 +52,7 @@ img:hover {
 #heading {
   color: blue;
 }
+
 #heading2 {
   font-size: 150px;
 }
