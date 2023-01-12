@@ -1,22 +1,59 @@
-div{
+.Contain1 {
     background-color: #c7f2a4;
     margin-top: 0;
-    margin-bottom: 0% ;
+    margin-bottom: 0;
+    position: relative;
 }
 
-h1,h3 {
-    margin:0;
+/* div{
+    background-color: #c7f2a4;
+
+} */
+
+h1,
+h3 {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 90px;
 }
 
 body {
-    background-color: yellow;
     padding: 0px;
     margin: 0px;
-  }
+    margin: 0;
+    text-align: center;
+}
 
+<<<<<<< HEAD
 span{
     text-decoration: underline ;
 }
 .contain2{
     background-color: blueviolet;
+=======
+span {
+    text-decoration: underline;
+}
+
+.TopCloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.BottomCloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.top-container {
+    position: relative;
+    height: 100px;
+    background-color: #c7f2a4;
+>>>>>>> b3f7f1c477fc9e95e8fd87cdaf6b769a3f2a7161
 }
