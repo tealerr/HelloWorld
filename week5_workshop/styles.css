@@ -6,13 +6,13 @@
   }
   
   .example-div2{
-    margin-left: 10px;
+    
     width: 200px;
     height: 200px;
-    background-color: blue;
+    background-color: yellowgreen;
   }
   .example-div3{
-    margin-left:10px;
+    margin-left:90%;
     width: 200px;
     height: 200px;
     background-color: red;
