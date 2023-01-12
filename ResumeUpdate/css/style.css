@@ -28,12 +28,14 @@ body {
     text-align: center;
 }
 
-span{
-    text-decoration: underline ;
+span {
+    text-decoration: underline;
 }
-.contain2{
+
+.contain2 {
     background-color: blueviolet;
 }
+
 .TopCloud {
     position: absolute;
     top: 50px;
