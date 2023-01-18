@@ -3,12 +3,11 @@ tfoot {
     color: tomato;
 }
 
-body {
-    background-color: #F3EFE0;
-}
- h1,h3{
+
+h1,
+h3 {
     color: #28a745;
- }
+}
 
 hr {
     border-style: dotted none none;
@@ -27,29 +26,21 @@ body {
     color: gray;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
-
-
-}
-
-body {
     background-color: #F3EFE0;
 }
-
 
 table {
     min-width: 1000px !important;
     width: 100%;
     border-collapse: separate;
     border: spacing 0 20px;
-    ;
+
 }
 
 img {
     border-radius: 50%;
-}
-
-img {
     width: 10%;
+
 }
 
 thead,
@@ -82,27 +73,14 @@ td {
     display: table-cell;
 }
 
-
-
-/* Test Design Page(Demo) */
-/*  body {
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: normal;
-    background: #f8f9fd;
-    color: gray;
-    margin: 0;
-    display: block;
-    margin: 8px;
-    
-}
- */
-
-a {
-    color: brown;
+nav {
+    background-color: var(--gray-dark);
+    color: white;
 }
 
+li {
+    color: white;
+}
 
 :root {
     --blue: #007bff;
