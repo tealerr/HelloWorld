@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="testweb.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+
+<nav class="navbar navbar-toggleable-lg sticky-top navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <a class="navbar-brand" href="#">David Madrigal's Portfolio</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#projects" class="nav-link">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="jumbotron">
+  <h1 class="display-3">Welcome!</h1>
+  <p class="lead">This is a site to which I will be adding all of my website works.</p>
+  <hr class="my-4">
+  <p>This site uses <a href="https://v4-alpha.getbootstrap.com/" id="bootstrap-link">Bootstrap 4</a> to make the site visually pleasing.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+<div class="container-fluid" id="About">
+  <div class="row">
+    <div class="col-sm-12 div.md-12" id="info-cards About">
+      <div class="card">
+        <h3 class="card-header">About the <strong>Developer</strong></h3>
+        <div class="card-block">
+          <div class="media">
+            <img class="d-flex mr-3" src="https://avatars1.githubusercontent.com/u/17634751?v=3&u=764e15995bb82b2f37a3bdb15ba59e11f038a2f1&s=400" alt="githubProfilePic">
+            <div class="media-body">
+              <h5 class="mt-0">Welcome to My Portfolio!</h5>
+              Hello there! This is a personal portfolio of all of my works will be open source and can be changed however you please. Just make sure to provide links to the frameworks used so others can create projects with them!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="card-blocks projects projects">
+  <div class="row">
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <div class="card-header">
+          Block #1
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">Special title treatment</h4>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <div class="card-header">
+          Featured: "Just Random Musing..."
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">My First Site W/ Bootstrap!</h4>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="https://mexdave1997.github.io/Just-Random-Musings/" class="btn btn-outline-primary card-button">View the Site!</a>
+          <a href=https://github.com/MEXdave1997/Just-Random-Musings "" class="btn btn-outline-info card-button">View Source!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <div class="card-header">
+          Block #2
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">Special title treatment</h4>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="skillbars">
+  <div class="card">
+    <h3 class="card-header">Featured Skills</h3>
+    <div class="card-block">
+      <p class="card-text">HTML</p>
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+      <br>
+      <p class="card-text">CSS</p>
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+      </div>
+      <br>
+      <p class="card-text">JavaScript</p>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<form class="container-fluid" id="contact">
+  <div id="form-container">
+    <div class="form-group row">
+      <label for="InputName" class="col-4 col-form-label">Full Name</label>
+      <div class="col-8">
+        <input type="name" class="form-control" id="InputName" aria-described-by="nameHelp" placeholder="Enter Name" />
+        <small id="nameHelp" class="form-text text-muted">Please enter your Full Name (First and Last)</small>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="InputEmail" class="col-4 col-form-label">Email Address</label>
+      <div class="col-8">
+        <input type="email" class="form-control" id="InputEmail" aria-described-by="emailHelp" placeholder="Enter Email" />
+        <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="exampleInputPassword1" class="col-4 col-form-label">Password</label>
+      <div class="col-8">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary form-button">Submit</button>
+  </div>
+</form>
+<footer class="footer text-muted">
+  <p>&copy 2017. David Madrigal-Hernandez.</p>
+</footer>
+</body>
+</html>
+
+<style>
+  body {
+  background: #f5f5dc;
+}
+
+.jumbotron {
+  text-align: center;
+  background: url(imgs/los-angeles-skyline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  border-radius: 0;
+  background-color: antiquewhite;
+}
+
+#bootstrap-link {
+  text-decoration: none;
+  color: white;
+}
+
+#bootstrap-link:hover {
+  text-decoration: underline;
+  color: #014c8c;
+}
+
+#info-cards {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+#card-blocks {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#form-container {
+  border: 5px solid rgba(220, 220, 220, 0.4);
+  margin-top: 10px;
+  padding: 30px;
+  padding-bottom: 25px;
+  background: #ffffff;
+}
+
+.form-button {
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #292b2c !important;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+</style>

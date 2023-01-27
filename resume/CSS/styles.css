@@ -6,7 +6,11 @@ tfoot {
 
 h1,
 h3 {
-    color: #28a745;
+    color: #222222;
+}
+
+.nav-link.active {
+    color: red;
 }
 
 hr {
@@ -14,7 +18,10 @@ hr {
     border-width: 10px;
     color: #22A39F;
     height: 10px;
-    width: 70%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 body {
@@ -30,7 +37,7 @@ body {
 }
 
 table {
-    min-width: 1000px !important;
+    min-width: 100px;
     width: 100%;
     border-collapse: separate;
     border: spacing 0 20px;
@@ -39,7 +46,7 @@ table {
 
 img {
     border-radius: 50%;
-    width: 10%;
+    width: 20%;
 
 }
 
@@ -51,6 +58,7 @@ th {
     border-color: #fff;
     padding: 10px;
     font-size: 14px;
+    text-align: center;
 }
 
 table,
@@ -58,7 +66,6 @@ thead,
 th {
     border: 1px;
     border-color: #fff;
-    padding: 20px;
     font-size: 14px;
 }
 
@@ -73,14 +80,73 @@ td {
     display: table-cell;
 }
 
-nav {
-    background-color: var(--gray-dark);
-    color: white;
-}
-
 li {
     color: white;
 }
+
+
+
+
+
+.detail {
+    background-color: #20c997;
+}
+
+h3 {
+    text-align: center;
+}
+
+#Education {
+    height: auto;
+    position: relative;
+    padding: 70px;
+    margin: 20px;
+
+}
+
+#Employment {
+    height: auto;
+    position: relative;
+    padding: 70px;
+    margin: 20px;
+
+}
+
+#Skills {
+    height: auto;
+    position: relative;
+    padding: 70px;
+    margin: 20px;
+
+}
+
+#Hobby {
+    height: auto;
+    position: relative;
+    padding: 70px;
+    margin: 20px;
+
+}
+
+
+
+
+.profileImg {
+    display: block;
+    position: relative;
+    top: 30px;
+    padding: 50px;
+}
+
+.aboutMe{
+    margin-left: 20px;
+    
+}
+.job{
+    margin-left: 20px;
+
+}
+
 
 :root {
     --blue: #007bff;
