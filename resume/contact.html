@@ -4,41 +4,107 @@
 <head>
   <meta charset="utf-8">
   <title>contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
-  <h1>Contact</h1>
+  <h1><span class="header">Contact Me</span></h1>
+
+  <div class="card" style="margin: 50px;">
+    <div class="card-header" style="font-weight: bolder; font-size: large;">
+      Email
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>6352100210@stu.pim.ac.th</p>
+        <footer> Office Time <span style="color: green;">9:00 A.M.- 5:00 P.M.</span> </footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="card" style="margin: 50px;">
+    <div class="card-header" style="font-weight: bolder; font-size: large;">
+      Phone Number
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>+66 62xxx9472</p>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="card" style="margin: 50px;">
+    <div class="card-header" style="font-weight: bolder; font-size: large;">
+      Address
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>BKK,Thailand</p>
+      </blockquote>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-danger" style="margin-left: 50px;"> <a href="index.html">Back</a> </button>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
 
 </body>
 
-</html>
-<h3 style="left: auto; color: tomato;">ติดต่อฉัน 📬</h3>
-<form class="" action="mailto:theetitle@gmail.com" method="post" enctype="text/plain">
-  <label sty>Name:</label>
-  <input type="text" name="name_surname" value="" placeholder="Name Surname" required><br>
-
-  <label>E-mail:</label>
-  <input type="email" name="email" value="" placeholder="example@gmail.com" required><br>
-
-  <label>ข้อความที่ต้องการส่ง:</label><br>
-  <textarea name="message" rows="10" cols="50" placeholder="Type..."></textarea><br>
-  <input style="color: white; background-color: rgb(25, 134, 84); width: 100px; height: 33px ;" type="submit" name="">
-
-</form>
-
 
 <style>
-  label {
-    color: darkslategrey;
+  body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #F3EFE0;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
-  body {
-    font-family: "Poppins";
-    font-size: 16px;
-    grid-auto-rows: auto;
-    grid-auto-columns: auto;
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 
+  form {
+    display: block;
+    margin-top: 0em;
+  }
 
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+  }
+
+  #form-container {
+    border: 5px solid rgba(220, 220, 220, 0.4);
+    margin-top: 10px;
+    padding: 30px;
+    padding-bottom: 25px;
+    background: #ffffff;
+  }
+
+  .header{
+    color: white;
+    background-color: #434242 ;
+    border-radius: 10px;
   }
 </style>

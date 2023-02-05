@@ -2,6 +2,9 @@ thead,
 tfoot {
     color: tomato;
 }
+.bio{
+    background-color: #dc3545;
+}
 
 
 h1,
@@ -30,7 +33,6 @@ body {
     line-height: 1.8;
     font-weight: lighter;
     background: #f8f9fd;
-    color: gray;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
     background-color: #F3EFE0;
@@ -57,7 +59,7 @@ th {
     border: 1px;
     border-color: #fff;
     padding: 10px;
-    font-size: 14px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -66,7 +68,7 @@ thead,
 th {
     border: 1px;
     border-color: #fff;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 th {
@@ -83,7 +85,6 @@ td {
 li {
     color: white;
 }
-
 
 
 
@@ -126,6 +127,13 @@ h3 {
     padding: 70px;
     margin: 20px;
 
+}
+
+.tableHead{
+    padding: 10px;
+    background-color: #22A39F;
+    border-radius: 10px;
+    color: white;
 }
 
 
