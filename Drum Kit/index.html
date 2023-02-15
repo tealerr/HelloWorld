@@ -9,6 +9,10 @@
 </head>
 
 <body>
+  <audio id="myAudio">
+    <source src="sounds/Shinunoga E-Wa.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
   <h1 id="title">Drum 🥁 Kit</h1>
   <div class="set">
@@ -19,6 +23,17 @@
     <button class="j drum">j</button>
     <button class="k drum">k</button>
     <button class="l drum">l</button>
+    <p>Click the buttons to play or pause the audio.</p>
+
+    <div class="cover">
+      <img src="https://pic-bstarstatic.akamaized.net/ugc/701968ddb8fa9aeb7426069ca79979a0.jpeg" alt="" class="album">
+      <h2>Fujii Kaze</h2>
+    </div>
+
+    <button onclick="playAudio()" type="button" class="playbtn"></button>
+    <button onclick="pauseAudio()" type="button" class="pausebtn"></button>
+
+
   </div>
 
 
@@ -27,6 +42,17 @@
   </footer>
 
   <script src="index.js" charset="utf-8"></script>
+  <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+      x.play();
+    }
+
+    function pauseAudio() {
+      x.pause();
+    }
+  </script>
 </body>
 
 </html>
