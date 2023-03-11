@@ -7,10 +7,7 @@ tfoot {
 }
 
 
-h1,
-h3 {
-    color: #222222;
-}
+
 
 .nav-link.active {
     color: red;
@@ -28,11 +25,13 @@ hr {
 }
 
 body {
+    background-image: url("https://digwallpapers.com/wallpapers/full/b/0/8/37797-3840x2160-starry-night-wallpaper-desktop-4k.jpg");
+  background-repeat: repeat-x;
     font-family: "Poppins", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.8;
+    color: white;
     font-weight: lighter;
-    background: #f8f9fd;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
     background-color: #F3EFE0;
@@ -140,17 +139,26 @@ h3 {
 
 
 .profileImg {
-    display: block;
+    padding: 5%;
+    height: 400px;
     position: relative;
     top: 30px;
-    padding: 50px;
+}
+
+.pfimg{
+    right: 40%;
+    position: absolute;
 }
 
 .aboutMe{
+    padding: 5%;
+    text-align: center;
     margin-left: 20px;
     
 }
 .job{
+    padding: 5%;
+    text-align: center;
     margin-left: 20px;
 
 }
