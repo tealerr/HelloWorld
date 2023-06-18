@@ -136,7 +136,6 @@ func calculateHalfHalf() []float64 {
 			totalHalfHalf[1] = 0 //ยังไงก็เหลือ 0 เพราะใช้เกิน
 		}
 		fmt.Printf("จ่ายเอง %.2f เหลือโควตาวงเงิน %.2f \n", totalHalfHalf[0], totalHalfHalf[1])
-
 	}
 
 	return totalHalfHalf
