@@ -79,13 +79,14 @@ func main() {
 	result := summation(5, 200, 300, 400, 123, 525, 1231)
 	fmt.Println("ผลรวม", result)
 
+	// สร้าง product โดยเรียกใช้ struct
 	product1 := product{name: "Pen", price: 30, category: "เครื่องเขียน", discount: 10}
 	product2 := product{name: "mouse", price: 900, category: "อุปกรณ์คอมพิวเตอร์", discount: 10}
 	product3 := product{name: "keyboard", price: 500, category: "อุปกรณ์คอมพิวเตอร์", discount: 10}
 	product4 := product{name: "monitor", price: 2000, category: "อุปกรณ์คอมพิวเตอร์", discount: 10}
 	product5 := product{name: "หูฟัง", price: 300, category: "อุปกรณ์คอมพิวเตอร์", discount: 30}
 	product1.price = 100
-	product5.name, product2.name = "ดินสอ", "ยางลบ"
+	product5.name, product2.name = "ดินสอ", "ยางลบ" //เปลี่ยนชื่อของ product
 
 	fmt.Println(product1.name, product2.name, product3.name, product4.name, product5.name)
 	fmt.Println(calculator.Add(50, 100))
